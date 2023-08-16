@@ -18,6 +18,14 @@ public class Main {
 
         Car haimaS5 = new Car(1401, "black", 1000000000);
 
+       jacS3.getName();
+
+       peugeot2008.getBrand();
+
+        haimaS5.getYear();
+
+        jacS5.printResult();
+
         Car car = new Car();
         System.out.println("pleas enter car name = ");
         String nameCar = in.next();
