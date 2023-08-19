@@ -4,25 +4,23 @@ import main.InputOutput;
 
 public class Circle {
 
-    private static InputOutput output=new InputOutput();
     private static double radius;
 
-
-    public Circle(double radius) {
-        this.radius = radius;
+    public static void setRadius(double radius1) {
+        radius = radius1;
     }
 
-    public static double conditionAreaCircle(double radius) {
+    public static double conditionAreaCircle() {
         if (radius < 0) {
-            output.printOutput("invalid value");
+            InputOutput.printOutput("invalid value");
             return -1.0;
         } else {
 
-            return areaCircle(radius);
+            return areaCircle();
         }
     }
 
-    public static double areaCircle(double radius) {
+    public static double areaCircle() {
         double area = Math.PI * radius * radius;
         return area;
     }

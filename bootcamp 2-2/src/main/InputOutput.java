@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class InputOutput {
 
-    Scanner in = new Scanner(System.in);
+    static  Scanner in = new Scanner(System.in);
 
-    public double getInput() {
+    public static double getInput() {
 
         double num = in.nextDouble();
         return num;
     }
 
-    public void printOutput(String title) {
+    public static void printOutput(String title) {
 
         System.out.println(title);
     }

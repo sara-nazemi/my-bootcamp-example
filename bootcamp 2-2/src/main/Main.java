@@ -6,28 +6,28 @@ import rectangleArea.Rectangle;
 public class Main {
     public static void main(String[] args) {
 
-        Circle radiusByConstructor = new Circle(14.5);
 
-        InputOutput input = new InputOutput();
+        InputOutput.printOutput("---------circle---------");
 
-        input.printOutput("---------circle---------");
+        InputOutput.printOutput("please enter radius");
+        double num = InputOutput.getInput();
 
-        input.printOutput("please enter circle radius");
-        double num = input.getInput();
+        Circle.setRadius(num);
 
-        input.printOutput("circle radius is = " + num);
-        input.printOutput("circle area is = " + Circle.conditionAreaCircle(num));
+        InputOutput.printOutput("circle radius is = " + num);
+        InputOutput.printOutput("circle area is = " + Circle.conditionAreaCircle());
 
 
-        input.printOutput("--------rectangle--------");
+        InputOutput.printOutput("--------rectangle--------");
 
-        input.printOutput("please enter rectangle length");
-        double num1 = input.getInput();
+        InputOutput.printOutput("please enter rectangle length");
+        double num1 = InputOutput.getInput();
 
-        input.printOutput("please enter rectangle width");
-        double num2 = input.getInput();
+        InputOutput.printOutput("please enter rectangle width");
+        double num2 = InputOutput.getInput();
+        Rectangle.setNumbers(num1, num2);
 
-        input.printOutput("rectangle length is = " + num1 + " " + "rectangle width is = " + num2);
-        input.printOutput("rectangle area is = " + Rectangle.conditionOfAreaRectangle(num1, num2));
+        InputOutput.printOutput("rectangle length is = " + num1 + " " + "rectangle width is = " + num2);
+        InputOutput.printOutput("rectangle area is = " + Rectangle.conditionOfAreaRectangle());
     }
 }
