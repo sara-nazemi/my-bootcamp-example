@@ -6,16 +6,26 @@ import numberChecker.NumbersChecker;
 public class Main {
     public static void main(String[] args) {
 
-        NumbersChecker num = new NumbersChecker(20, 98, 76);
 
         InputOutput.printOutput("----------three numbers----------");
 
+        InputOutput.printOutput("please first number");
+        int number1 = InputOutput.getInput();
+        InputOutput.printOutput("please second number");
+        int number2 = InputOutput.getInput();
+        InputOutput.printOutput("please third number");
+        int number3 = InputOutput.getInput();
+
+        NumbersChecker.setNumbers(number1, number2, number3);
         InputOutput.printOutput("result is = " + NumbersChecker.hasTeen());
+
 
         InputOutput.printOutput("--------one number-------");
 
-        NumberChecker num1 = new NumberChecker(17);
+        InputOutput.printOutput("please enter number");
+        int number4 = InputOutput.getInput();
 
+        NumberChecker.setNumber(number4);
         InputOutput.printOutput("result is = " + NumberChecker.isTeen());
     }
 }

@@ -7,10 +7,10 @@ public class NumbersChecker {
     private static int num2;
     private static int num3;
 
-    public NumbersChecker(int num1, int num2, int num3) {
-        this.num1 = num1;
-        this.num2 = num2;
-        this.num3 = num3;
+    public static void setNumbers(int number1, int number2, int number3) {
+        num1 = number1;
+        num2 = number2;
+        num3 = number3;
     }
 
     public static boolean hasTeen() {
