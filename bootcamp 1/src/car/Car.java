@@ -78,7 +78,7 @@ public class Car {
     }
 
     public void getInput(String name, int year) {
-        System.out.println("name is = "+name+"\tyear is = "+year);
+        System.out.println("name is = " + name + "\tyear is = " + year);
         if (name.equals("jacS5")) {
             this.price = 2000000000;
             System.out.println("price is = " + this.price + " toman");
@@ -89,11 +89,14 @@ public class Car {
 
     }
 
-
-    public void printResult() {
+    public String printResult() {
         String print = " name is = " + this.name +
                 "\n brand is = " + this.brand +
                 "\n model is = " + this.year +
                 "\n color is = " + this.color;
+        return print;
     }
 }
+    /*public void printResult(){
+        System.out.println(" name is = " + this.name + "\n brand is = " + this.brand + "\n model is = " + this.year + "\n color is = " + this.color);
+}*/

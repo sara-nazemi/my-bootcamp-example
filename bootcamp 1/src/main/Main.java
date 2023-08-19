@@ -8,6 +8,7 @@ public class Main {
 
     static Scanner in = new Scanner(System.in);
 
+
     public static void main(String[] args) {
 
         Car jacS5 = new Car();
@@ -32,6 +33,7 @@ public class Main {
         System.out.println("pleas enter car year = ");
         int model = in.nextInt();
         car.getInput(nameCar, model);
+        //System.out.println(haimaS5.printResult());
 
     }
 }

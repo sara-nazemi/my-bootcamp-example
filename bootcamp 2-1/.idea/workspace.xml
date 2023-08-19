@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d707f7a-07d1-42fa-8026-b27db93c9438" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/My BootCamp Examples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootcamp 2-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equality/EqualityPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bootcamp class examp1/Example1 class.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bootcamp class examp1/My BootCamp Examples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bootcamp class examp1/bootcamp 2-1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootcamp 1/out/production/bootcamp 1/car/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp 1/out/production/bootcamp 1/car/Car.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootcamp 1/out/production/bootcamp 1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp 1/out/production/bootcamp 1/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootcamp 1/src/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp 1/src/car/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootcamp 1/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp 1/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/student/Student.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692377961202</updated>
-      <workItem from="1692377962777" duration="8794000" />
+      <workItem from="1692377962777" duration="9315000" />
     </task>
     <servers />
   </component>
