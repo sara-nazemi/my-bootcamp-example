@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4d707f7a-07d1-42fa-8026-b27db93c9438" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcamp 2-1/equality/EqualityPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootcamp 2-1/equality/EqualityPrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcamp 2-1/main/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcamp 2-1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootcamp 2-1/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcamp 2-1/main/Output.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/equality/EqualityPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equality/EqualityPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/InputOutput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +75,23 @@
       <option name="presentableId" value="Default" />
       <updated>1692377961202</updated>
       <workItem from="1692377962777" duration="9315000" />
-      <workItem from="1692460966748" duration="1382000" />
+      <workItem from="1692460966748" duration="2385000" />
     </task>
+    <task id="LOCAL-00001" summary="edit input method">
+      <created>1692462391034</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692462391034</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit input method" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit input method" />
   </component>
 </project>
