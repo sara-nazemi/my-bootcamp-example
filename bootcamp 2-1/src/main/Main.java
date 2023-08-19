@@ -5,26 +5,19 @@ import equality.EqualityPrinter;
 public class Main {
     public static void main(String[] args) {
 
+        InputOutput.outputOfNum("please enter first number");
+        int num1 = InputOutput.getInput();
 
-        //get number2
-        Output.printTitle("please enter first number");
-        int num1 = Input.getInput();
+        InputOutput.outputOfNum("please enter second number");
+        int num2 = InputOutput.getInput();
 
-        //get number3
-        Output.printTitle("please enter second number");
-        int num2 = Input.getInput();
+        InputOutput.outputOfNum("please enter third number");
+        int num3 = InputOutput.getInput();
 
-        //get number3
-        Output.printTitle("please enter third number");
-        int num3 = Input.getInput();
+        EqualityPrinter.setNumbers(num1, num2, num3);
 
-        EqualityPrinter num = new EqualityPrinter(5);
+        EqualityPrinter.printEqual();
 
-        EqualityPrinter numberWithConstructor = new EqualityPrinter(1, 12, 12);
-
-        EqualityPrinter numberWithoutConstructor = new EqualityPrinter();
-
-        numberWithoutConstructor.printEqual(num1, num2, num3);
 
     }
 }

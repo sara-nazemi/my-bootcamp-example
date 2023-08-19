@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d707f7a-07d1-42fa-8026-b27db93c9438" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../bootcamp 1/out/production/bootcamp 1/car/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp 1/out/production/bootcamp 1/car/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootcamp 1/out/production/bootcamp 1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp 1/out/production/bootcamp 1/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootcamp 1/src/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp 1/src/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootcamp 1/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootcamp 1/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/student/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bootcamp 2-1/equality/EqualityPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootcamp 2-1/equality/EqualityPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bootcamp 2-1/main/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bootcamp 2-1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootcamp 2-1/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bootcamp 2-1/main/Output.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equality/EqualityPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equality/EqualityPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/InputOutput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -51,13 +55,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692377961202</updated>
       <workItem from="1692377962777" duration="9315000" />
+      <workItem from="1692460966748" duration="1382000" />
     </task>
     <servers />
   </component>

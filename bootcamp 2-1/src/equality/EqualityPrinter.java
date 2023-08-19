@@ -1,37 +1,27 @@
 package equality;
 
-import main.Input;
-import main.Output;
+import main.InputOutput;
 
 public class EqualityPrinter {
     private static int number1;
     private static int number2;
     private static int number3;
 
-    public EqualityPrinter() {
-
+    public static void setNumbers(int num1, int num2, int num3) {
+        number1 = num1;
+        number2 = num2;
+        number3 = num3;
     }
 
-    public EqualityPrinter(int number1) {
-        this.number1 = number1;
-
-    }
-
-    public EqualityPrinter(int number1, int number2, int number3) {
-        this.number1 = number1;
-        this.number2 = number2;
-        this.number3 = number3;
-    }
-
-    public static void printEqual(int number1, int number2, int number3) {
+    public static void printEqual() {
         if (number1 < 0 || number2 < 0 || number3 < 0) {
-            Output.printTitle("Invalid value");
+            InputOutput.outputOfNum("Invalid value");
         } else if (number1 == number2 && number2 == number3) {
-            Output.printTitle("All numbers are equal");
+            InputOutput.outputOfNum("All numbers are equal");
         } else if (number1 != number2 && number2 != number3) {
-            Output.printTitle("All numbers are different");
+            InputOutput.outputOfNum("All numbers are different");
         } else if ((number1 == number2 && number2 != number3) || (number1 != number2 && number2 == number3)) {
-            Output.printTitle("Neither all are equal or different");
+            InputOutput.outputOfNum("Neither all are equal or different");
         }
     }
 }
