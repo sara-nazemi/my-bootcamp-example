@@ -20,8 +20,7 @@ public class EqualityPrinter {
             InputOutput.outputOfNum("All numbers are equal");
         } else if (number1 != number2 && number2 != number3) {
             InputOutput.outputOfNum("All numbers are different");
-        } else if ((number1 == number2 && number2 != number3) || (number1 != number2 && number2 == number3)) {
-            InputOutput.outputOfNum("Neither all are equal or different");
         }
+            InputOutput.outputOfNum("Neither all are equal or different");
     }
 }

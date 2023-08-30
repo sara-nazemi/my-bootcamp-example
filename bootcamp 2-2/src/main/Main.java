@@ -27,7 +27,7 @@ public class Main {
         double num2 = InputOutput.getInput();
         Rectangle.setNumbers(num1, num2);
 
-        InputOutput.printOutput("rectangle length is = " + num1 + " " + "rectangle width is = " + num2);
+        InputOutput.printOutput("rectangle length is = " + num1 + " , " + "rectangle width is = " + num2);
         InputOutput.printOutput("rectangle area is = " + Rectangle.conditionOfAreaRectangle());
     }
 }

@@ -13,15 +13,11 @@ public class BarkingDog {
 
     public static boolean shouldWakeup() {
 
-        if ((barking = true) && (((ourOfTheDay < 8) && (ourOfTheDay >= 0)) || ((ourOfTheDay > 22) && (ourOfTheDay <= 23)))) {
-
+        if (barking && (((ourOfTheDay < 8) && (ourOfTheDay >= 0)) || ((ourOfTheDay > 22) && (ourOfTheDay <= 23)))) {
             return true;
-
-        } else if ((barking = false) && (ourOfTheDay >= 8) && (ourOfTheDay <= 22)) {
-
+        } /*else if (!barking && (ourOfTheDay >= 8) && (ourOfTheDay <= 22)) {
             return false;
-
-        }
+        }*/
         return false;
     }
 }

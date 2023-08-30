@@ -24,7 +24,6 @@ public class Rectangle {
 
     public static double overLoadedRectangle() {
         double area = x * y;
-
         return area;
     }
 

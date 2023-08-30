@@ -4,12 +4,11 @@ import java.util.Scanner;
 
 public class InputOutput {
 
-    static  Scanner in = new Scanner(System.in);
+    static Scanner in = new Scanner(System.in);
 
     public static double getInput() {
-
-        double num = in.nextDouble();
-        return num;
+        
+            return in.nextDouble();
     }
 
     public static void printOutput(String title) {
