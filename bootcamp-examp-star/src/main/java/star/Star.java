@@ -37,15 +37,14 @@ public class Star {
     }
 
     public static void editStar3(int n) {
-        String j = "";
+
         for (int i = 1; i <= n; i++) {
-            j+="*";
-            j = j.substring(0, i);
+            StringBuilder j = string.append("*");
             System.out.println(j);
         }
-        for (int i = (n - 1); i >= 1; i--) {
+        for (int i = n; i >= 1; i--) {
             //j.length() - 1
-            j = j.substring(0, i);
+            StringBuilder j = string.delete(i - 1, i);
             System.out.println(j);
         }
     }
