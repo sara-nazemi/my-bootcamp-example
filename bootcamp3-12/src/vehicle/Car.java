@@ -1,7 +1,7 @@
 package vehicle;
 
 public class Car extends Vehicle {
-    private int numberOfDoors;
+    private Integer numberOfDoors;
 
     public void setNumberOfDoors(int numberOfDoors) {
         this.numberOfDoors = numberOfDoors;
