@@ -1,5 +1,3 @@
-package main;
-
 import student.Student;
 
 public class Main {

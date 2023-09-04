@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>calculator-abstract-generic</artifactId>
+    <artifactId>bootcamp-4-4-calculator-abstract-generic</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
